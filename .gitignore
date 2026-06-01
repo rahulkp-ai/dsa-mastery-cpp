@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+.pytest_cache/
+
+# C++
+*.o
+*.out
+*.exe
+*.dSYM/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmarks
+*.prof
+*.bench
