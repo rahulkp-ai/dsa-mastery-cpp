@@ -1,4 +1,4 @@
-name: DSA-Mastery CI
+name: DSA-Mastery Daily CI
 
 on:
   push:
@@ -11,11 +11,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Fetches the current and previous commit so we can see what changed
 
       - name: Install GCC 13
         run: sudo apt-get install -y g++-13
 
-      - name: Compile and test C++
+      - name: Find, Compile, and Run Changed C++ Tests
         run: |
-          g++-13 -std=c++20 -O2 -o test_cpp tests/cpp/test_sorting.cpp
-          ./test_cpp
+          # 1. Find any modified or added .cpp files in the tests/cpp/ directory from the latest push
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep 'tests/cpp/.*\.cpp$' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No C++ test files were changed in this push. Skipping compilation."
+            exit 0
+          fi
+
+          # 2. Loop through the changed files, compile, and run them
+          for FILE in $CHANGED_FILES; do
+            echo "--------------------------------------------------"
+            echo "Processing daily test: $FILE"
+            
+            # Extract a clean binary name (e.g., test_cpp_executable)
+            EXE_NAME="test_daily_bin"
+            
+            # Compile the specific file that you pushed today
+            g++-13 -std=c++20 -O2 -o "$EXE_NAME" "$FILE"
+            
+            # Run the test execution
+            ./"$EXE_NAME"
+          done
