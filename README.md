@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DSA-Mastery
+# DSA-Mastery
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 [![C++](https://img.shields.io/badge/C++-20-orange.svg)](https://isocpp.org)

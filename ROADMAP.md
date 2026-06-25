@@ -2,20 +2,21 @@
 
 ## 📅 Overview
 
-| Phase | Duration | Focus |
-|-------|----------|-------|
-| Phase 1 | Month 1 | Foundations |
-| Phase 2 | Month 2 | Linear Data Structures |
-| Phase 3 | Month 3 | Non-Linear Data Structures |
-| Phase 4 | Month 4 | Advanced Algorithms |
-| Phase 5 | Month 5 | System Design + DP Mastery |
-| Phase 6 | Month 6 | Interview Prep + CP |
+| Phase   | Duration | Focus                      |
+| ------- | -------- | -------------------------- |
+| Phase 1 | Month 1  | Foundations                |
+| Phase 2 | Month 2  | Linear Data Structures     |
+| Phase 3 | Month 3  | Non-Linear Data Structures |
+| Phase 4 | Month 4  | Advanced Algorithms        |
+| Phase 5 | Month 5  | System Design + DP Mastery |
+| Phase 6 | Month 6  | Interview Prep + CP        |
 
 ---
 
 ## 🟢 Month 1 — Foundations
 
 ### Week 1: Big-O & Arrays
+
 - [ ] Time & Space Complexity
 - [ ] Big-O, Big-Theta, Big-Omega
 - [ ] Arrays: traversal, insertion, deletion
@@ -24,6 +25,7 @@
 - **Problems**: 15 easy array problems
 
 ### Week 2: Strings & Hashing
+
 - [ ] String manipulation in Python & C++
 - [ ] HashMap / HashSet internals
 - [ ] Frequency counting patterns
@@ -31,6 +33,7 @@
 - **Problems**: 15 easy string/hash problems
 
 ### Week 3: Recursion & Backtracking Intro
+
 - [ ] Recursion tree visualization
 - [ ] Base case & recursive case
 - [ ] Factorial, Fibonacci, Power
@@ -38,6 +41,7 @@
 - **Problems**: 10 recursion problems
 
 ### Week 4: Sorting & Searching
+
 - [ ] Bubble, Selection, Insertion sort
 - [ ] Merge Sort, Quick Sort, Heap Sort
 - [ ] Binary Search (all variants)
@@ -49,6 +53,7 @@
 ## 🟡 Month 2 — Linear Data Structures
 
 ### Week 5: Linked Lists
+
 - [ ] Singly & Doubly Linked Lists
 - [ ] Fast & Slow pointers
 - [ ] Reversal patterns
@@ -56,6 +61,7 @@
 - **Problems**: 20 linked list problems
 
 ### Week 6: Stacks & Queues
+
 - [ ] Stack using array & linked list
 - [ ] Monotonic stack pattern
 - [ ] Queue using two stacks
@@ -63,6 +69,7 @@
 - **Problems**: 20 stack/queue problems
 
 ### Week 7: Trees I — Binary Trees
+
 - [ ] Tree traversals (BFS, DFS)
 - [ ] Height, depth, diameter
 - [ ] Lowest Common Ancestor
@@ -70,6 +77,7 @@
 - **Problems**: 20 binary tree problems
 
 ### Week 8: Trees II — BST & Heaps
+
 - [ ] BST operations (insert, delete, search)
 - [ ] BST validation
 - [ ] Min/Max heaps
@@ -81,6 +89,7 @@
 ## 🟠 Month 3 — Non-Linear Data Structures
 
 ### Week 9-10: Graphs
+
 - [ ] Graph representations (adjacency list/matrix)
 - [ ] BFS & DFS on graphs
 - [ ] Topological sort
@@ -90,6 +99,7 @@
 - **Problems**: 30 graph problems
 
 ### Week 11: Tries
+
 - [ ] Trie insert, search, delete
 - [ ] Prefix search
 - [ ] Word search problems
@@ -97,6 +107,7 @@
 - **Problems**: 15 trie problems
 
 ### Week 12: Advanced Hashing & Bit Manipulation
+
 - [ ] Rolling hash
 - [ ] Consistent hashing
 - [ ] Bit tricks (XOR, shifts, masks)
@@ -108,6 +119,7 @@
 ## 🔴 Month 4 — Advanced Algorithms
 
 ### Week 13-14: Dynamic Programming
+
 - [ ] DP patterns: 1D, 2D, interval, tree DP
 - [ ] Knapsack variants (0/1, unbounded, fractional)
 - [ ] LCS, LIS, Edit Distance
@@ -116,6 +128,7 @@
 - **Problems**: 40 DP problems
 
 ### Week 15: Greedy Algorithms
+
 - [ ] Activity selection
 - [ ] Huffman coding
 - [ ] Job scheduling
@@ -123,6 +136,7 @@
 - **Problems**: 20 greedy problems
 
 ### Week 16: Segment Trees & Fenwick Trees
+
 - [ ] Segment tree build, query, update
 - [ ] Lazy propagation
 - [ ] Fenwick tree (BIT)
@@ -134,6 +148,7 @@
 ## 🟣 Month 5 — System Design + Advanced Topics
 
 ### Week 17-18: System Design
+
 - [ ] Design principles (SOLID, DRY, KISS)
 - [ ] Consistent hashing
 - [ ] LRU/LFU cache
@@ -142,6 +157,7 @@
 - [ ] Design a search engine
 
 ### Week 19-20: Advanced Graph + String Algorithms
+
 - [ ] Tarjan's SCC
 - [ ] Bridges and articulation points
 - [ ] KMP, Z-algorithm
@@ -153,6 +169,7 @@
 ## 🏆 Month 6 — Interview Mastery + CP
 
 ### Week 21-22: Interview Preparation
+
 - [ ] Blind 75 — complete all
 - [ ] NeetCode 150 — complete all
 - [ ] System design mock interviews
@@ -160,6 +177,7 @@
 - [ ] 2 mock interviews per week
 
 ### Week 23-24: Competitive Programming
+
 - [ ] Codeforces Div 3 → Div 2
 - [ ] AtCoder Beginner Contests
 - [ ] LeetCode weekly contests
@@ -177,6 +195,7 @@ Weekend (3 hrs):    Mock interview or contest
 ```
 
 ## 📊 Weekly Revision
+
 - Monday: Previous week topics
 - Friday: Full topic quiz
 - Sunday: Contest or timed coding session
@@ -185,9 +204,9 @@ Weekend (3 hrs):    Mock interview or contest
 
 ## 🎯 Interview Timeline
 
-| Month | Target |
-|-------|--------|
-| 1-2 | Easy problems fluency |
-| 3-4 | Medium problems fluency |
-| 5 | Hard problems + system design |
-| 6 | Mock interviews, apply to companies |
+| Month | Target                              |
+| ----- | ----------------------------------- |
+| 1-2   | Easy problems fluency               |
+| 3-4   | Medium problems fluency             |
+| 5     | Hard problems + system design       |
+| 6     | Mock interviews, apply to companies |

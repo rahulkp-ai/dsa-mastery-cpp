@@ -17,6 +17,7 @@ manim>=0.18.0
 pytest>=7.4.0
 pytest-benchmark>=4.0.0
 
+
 # Utilities
 tqdm>=4.66.0
 rich>=13.7.0
