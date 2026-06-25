@@ -31,6 +31,7 @@ namespace dsa
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     using namespace dsa;
@@ -38,4 +39,5 @@ int main()
     std::cout << "[" << result[0] << ", " << result[1] << "]\n"; // [0, 1]
     return 0;
 }
+#endif // UNIT_TESTING
 // Compile: g++ -std=c++20 -O2 -o two_sum two_sum.cpp
