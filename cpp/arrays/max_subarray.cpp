@@ -24,6 +24,7 @@ namespace dsa
         return maxSum;
     }
 } // namespace name
+#if !defined(UNIT_TESTING)
 int main()
 {
     using namespace dsa;
@@ -31,3 +32,4 @@ int main()
     std::cout << "Max subarray sum: " << maxSubarray(nums) << "\n"; // 6
     return 0;
 }
+#endif // UNIT_TESTING
