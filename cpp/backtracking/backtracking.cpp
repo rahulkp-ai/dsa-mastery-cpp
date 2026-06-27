@@ -68,6 +68,7 @@ namespace dsa
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     auto subs = dsa::subsets({1, 2, 3});
@@ -75,3 +76,4 @@ int main()
     std::cout << "8-Queens solutions: " << dsa::nQueens(8) << "\n"; // 92
     return 0;
 }
+#endif // UNIT_TESTING
