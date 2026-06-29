@@ -65,6 +65,7 @@ namespace dsa
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     std::cout << "Single Number: " << dsa::singleNumber({2, 2, 1}) << "\n";                 // 1
@@ -76,3 +77,4 @@ int main()
     std::cout << "Subsets count: " << subs.size() << "\n"; // 8
     return 0;
 }
+#endif // UNIT_TESTING
