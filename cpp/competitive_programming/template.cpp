@@ -132,6 +132,7 @@ void solve()
     cout << n << "\n";
 }
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     fastIO();
@@ -141,3 +142,4 @@ int main()
         solve();
     return 0;
 }
+#endif // UNIT_TESTING
