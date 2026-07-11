@@ -68,6 +68,7 @@ namespace dsa
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     std::cout << dsa::coinChange({1, 5, 11}, 15) << "\n";               // 3
@@ -75,3 +76,4 @@ int main()
     std::cout << dsa::knapsack({1, 3, 4, 5}, {1, 4, 5, 7}, 7) << "\n";  // 9
     return 0;
 }
+#endif // UNIT_TESTING
