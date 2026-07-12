@@ -130,6 +130,7 @@ namespace dsa
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main()
 {
     dsa::Graph g(5);
@@ -153,3 +154,4 @@ int main()
 
     return 0;
 }
+#endif // UNIT_TESTING
