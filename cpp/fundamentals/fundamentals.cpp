@@ -53,6 +53,7 @@ auto makeTree() {
     return root; // No manual delete needed!
 }
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::cout << maxOf(3, 7) << "\n";       // 7
     std::cout << gcd(48, 18) << "\n";       // 6
@@ -68,3 +69,4 @@ int main() {
 
     return 0;
 }
+#endif // UNIT_TESTING
