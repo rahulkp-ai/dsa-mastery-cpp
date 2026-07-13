@@ -42,6 +42,7 @@ std::vector<std::vector<int>> mergeIntervals(std::vector<std::vector<int>>& inte
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::cout << std::boolalpha;
     std::cout << dsa::jumpGame({2,3,1,1,4}) << "\n";     // true
@@ -52,3 +53,4 @@ int main() {
     std::cout << "Merged intervals: " << merged.size() << "\n"; // 3
     return 0;
 }
+#endif // UNIT_TESTING
