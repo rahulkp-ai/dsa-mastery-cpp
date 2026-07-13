@@ -60,6 +60,7 @@ ListNode* mergeSorted(ListNode* l1, ListNode* l2) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     using namespace dsa;
     // Build: 1->2->3->4->5
@@ -75,3 +76,4 @@ int main() {
 
     return 0;
 }
+#endif // UNIT_TESTING
