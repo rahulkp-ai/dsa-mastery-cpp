@@ -44,6 +44,7 @@ int kthLargest(std::vector<int>& nums, int k) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<int> nums = {1,1,1,2,2,3};
     auto topK = dsa::topKFrequent(nums, 2);
@@ -55,3 +56,4 @@ int main() {
     std::cout << "2nd largest: " << dsa::kthLargest(arr, 2) << "\n"; // 5
     return 0;
 }
+#endif // UNIT_TESTING
