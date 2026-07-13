@@ -40,6 +40,7 @@ int longestConsecutive(const std::vector<int>& nums) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<std::string> strs = {"eat","tea","tan","ate","nat","bat"};
     auto groups = dsa::groupAnagrams(strs);
@@ -49,3 +50,4 @@ int main() {
     std::cout << "Longest consecutive: " << dsa::longestConsecutive(nums) << "\n"; // 4
     return 0;
 }
+#endif // UNIT_TESTING
