@@ -42,6 +42,7 @@ std::vector<int> nextGreaterElement(const std::vector<int>& nums) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::cout << std::boolalpha;
     std::cout << dsa::validParentheses("()[]{}") << "\n"; // true
@@ -52,3 +53,4 @@ int main() {
     std::cout << "\n";
     return 0;
 }
+#endif // UNIT_TESTING
