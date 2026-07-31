@@ -61,6 +61,7 @@ int maxDepth(NodePtr root) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     using namespace dsa;
     auto root = std::make_shared<TreeNode>(1);
@@ -75,3 +76,4 @@ int main() {
     std::cout << "\nDepth: " << maxDepth(root) << "\n";
     return 0;
 }
+#endif // UNIT_TESTING
