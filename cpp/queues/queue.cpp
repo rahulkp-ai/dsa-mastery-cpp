@@ -28,9 +28,11 @@ std::vector<int> slidingWindowMax(const std::vector<int>& nums, int k) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     auto result = dsa::slidingWindowMax({1,3,-1,-3,5,3,6,7}, 3);
     for (int x : result) std::cout << x << " "; // 3 3 5 5 6 7
     std::cout << "\n";
     return 0;
 }
+#endif // UNIT_TESTING
