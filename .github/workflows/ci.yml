@@ -37,7 +37,8 @@ jobs:
             
             # --- FIXED LINE BELOW ---
             # Added '-I tests' and '-I tests/cpp' flags so the compiler can resolve #include "test_common.hpp"
-            g++-13 -std=c++20 -O2 -I tests -I tests/cpp -o "$EXE_NAME" "$FILE"
+            # and -DUNIT_TESTING so implementation files skip their demo main()
+            g++-13 -std=c++20 -O2 -I tests -I tests/cpp -DUNIT_TESTING -o "$EXE_NAME" "$FILE"
             
             # Run the test execution
             ./"$EXE_NAME"

@@ -13,6 +13,6 @@ dependencies:
   - plotly
   - pytest
   - pip:
-    - rich
-    - tqdm
-    - graphviz
+      - rich
+      - tqdm
+      - graphviz
