@@ -55,6 +55,7 @@ void quickSort(std::vector<int>& arr, int low, int high) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<int> arr1 = {64, 34, 25, 12, 22, 11, 90};
     std::vector<int> arr2 = arr1;
@@ -71,3 +72,4 @@ int main() {
 
     return 0;
 }
+#endif // UNIT_TESTING
