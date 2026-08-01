@@ -47,6 +47,7 @@ public:
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     dsa::LRUCache cache(2);
     cache.put(1, 1); cache.put(2, 2);
@@ -59,3 +60,4 @@ int main() {
     std::cout << cache.get(4) << "\n";  // 4
     return 0;
 }
+#endif // UNIT_TESTING
