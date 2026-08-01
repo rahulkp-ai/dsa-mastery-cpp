@@ -85,6 +85,7 @@ std::string longestPalindrome(const std::string& s) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::cout << std::boolalpha;
     std::cout << "isPalindrome(racecar): " << dsa::isPalindrome("racecar") << "\n";
@@ -99,3 +100,4 @@ int main() {
               << dsa::longestPalindrome("babad") << "\n";
     return 0;
 }
+#endif // UNIT_TESTING
