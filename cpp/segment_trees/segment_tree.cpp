@@ -49,6 +49,7 @@ public:
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<int> arr = {1, 3, 5, 7, 9, 11};
     dsa::SegmentTree st(arr);
@@ -58,3 +59,4 @@ int main() {
     std::cout << st.query(1, 3) << "\n"; // 22 (10+5+7)
     return 0;
 }
+#endif // UNIT_TESTING
