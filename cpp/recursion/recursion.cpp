@@ -52,6 +52,7 @@ void nQueens(int n, int row, std::vector<int>& queens,
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<long long> memo(50, -1);
     std::cout << "fib(10) = " << dsa::fib(10, memo) << "\n"; // 55
@@ -69,3 +70,4 @@ int main() {
 
     return 0;
 }
+#endif // UNIT_TESTING
