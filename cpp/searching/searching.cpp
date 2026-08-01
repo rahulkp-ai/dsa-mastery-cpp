@@ -39,6 +39,7 @@ int searchRotated(const std::vector<int>& nums, int target) {
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     std::vector<int> sorted = {1,3,5,7,9,11};
     std::cout << dsa::binarySearch(sorted, 7) << "\n"; // 3
@@ -48,3 +49,4 @@ int main() {
     std::cout << dsa::searchRotated(rotated, 0) << "\n"; // 4
     return 0;
 }
+#endif // UNIT_TESTING
