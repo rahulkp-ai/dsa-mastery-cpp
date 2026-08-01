@@ -54,6 +54,7 @@ void priorityQueueDemo() {
     cout << "Min: " << minPQ.top() << "\n"; // 1
 }
 
+#if !defined(UNIT_TESTING)
 int main() {
     vectorDemo();
     mapDemo();
@@ -70,3 +71,4 @@ int main() {
 
     return 0;
 }
+#endif // UNIT_TESTING
