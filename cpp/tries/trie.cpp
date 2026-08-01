@@ -56,6 +56,7 @@ public:
 
 } // namespace dsa
 
+#if !defined(UNIT_TESTING)
 int main() {
     dsa::Trie trie;
     for (const auto& w : {"apple","app","application","apply"})
@@ -67,3 +68,4 @@ int main() {
     std::cout << trie.startsWith("app")    << "\n"; // true
     return 0;
 }
+#endif // UNIT_TESTING
