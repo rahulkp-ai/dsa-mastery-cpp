@@ -1,0 +1,75 @@
+Running test_arrays_max_subarray
+[PASS] test_arrays_max_subarray
+
+Running test_arrays_two_sum
+[PASS] test_arrays_two_sum
+
+Running test_backtracking
+[PASS] test_backtracking
+
+Running test_bit_tricks
+[PASS] test_bit_tricks
+
+Running test_cp_template
+[PASS] test_cp_template
+
+Running test_dp
+[PASS] test_dp
+
+Running test_fundamentals
+[PASS] test_fundamentals
+
+Running test_graphs
+[PASS] test_graphs
+
+Running test_greedy
+[PASS] test_greedy
+
+Running test_hashing
+[PASS] test_hashing
+
+Running test_heaps
+[PASS] test_heaps
+
+Running test_linked_lists
+[PASS] test_linked_lists
+
+Running test_queue
+[PASS] test_queue
+
+Running test_recursion
+[PASS] test_recursion
+
+Running test_searching
+[PASS] test_searching
+
+Running test_segment_tree
+[PASS] test_segment_tree
+
+Running test_sorting
+[PASS] test_sorting
+
+Running test_stacks
+[PASS] test_stacks
+
+Running test_stl_guide
+Vector size: 6
+alice: 1
+bob: 2
+Max: 9
+Min: 1
+[PASS] test_stl_guide
+
+Running test_strings
+FAILED: a == b
+[PASS] test_strings
+
+Running test_system_design
+[PASS] test_system_design
+
+Running test_trees
+[PASS] test_trees
+
+Running test_tries
+[PASS] test_tries
+
